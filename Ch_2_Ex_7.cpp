@@ -3,10 +3,11 @@ using namespace std;
 
 int main() 
 {
-    // Initial rise rate
-    double riseRate = 1.5; // millimeters per year
+    double riseRate;
 
-    // Calculating rise in 5, 7, and 10 years
+    cout << "Enter the rate at which the ocean rises per year (in millimeters): ";
+    cin >> riseRate;
+
     double riseIn5Years = riseRate * 5;
     double riseIn7Years = riseRate * 7;
     double riseIn10Years = riseRate * 10;
@@ -17,3 +18,4 @@ int main()
 
     return 0;
 }
+
